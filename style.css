@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    font-weight: bold;
+  }
+  .timerLabel {
+    font-size: 40px;
+    font-family: 'Comic Sans MS';
+    background-color: #ffff80;
+    color: #aa80ff;
+    width: 200px;
+    margin: 30px auto 0px;
+    border: 1px solid black;
+    border-radius: 15px;
+  }
+  #time-left {
+    font-size: 60px;
+    color: blue;
+  }
+  .btn {
+    width: 80px;
+    padding: auto;
+    margin: auto;
+  }
+  .work-break-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  h3 {
+    font-size: 25px;
+    font-family: Verdana;
+    color: #009900;
+  }
+  .change, .sessionLength,.breakLength {
+    font-size: 20px;
+  }
