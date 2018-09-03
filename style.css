@@ -1,6 +1,12 @@
 body {
     text-align: center;
     font-weight: bold;
+    background-color: lavender;
+  }
+  .card {
+    width: 60vw;
+    margin: 10vh auto;
+    background-color: white;
   }
   .timerLabel {
     font-size: 40px;
